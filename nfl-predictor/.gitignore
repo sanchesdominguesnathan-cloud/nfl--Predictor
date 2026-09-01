@@ -1,0 +1,30 @@
+# Dados e cache (grandes, gerados automaticamente por utils/data_loader.py)
+data/cache/
+data/training_dataset.parquet
+
+# Banco de dados local
+database/*.db
+database/*.sqlite3
+
+# Modelos treinados (opcional: remova estas linhas se quiser versionar os .pkl)
+# models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/

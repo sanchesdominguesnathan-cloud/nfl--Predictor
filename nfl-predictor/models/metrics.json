@@ -1,0 +1,18 @@
+{
+  "xgboost": {
+    "model": "XGBoost",
+    "accuracy": 0.6251497005988024,
+    "precision": 0.6407185628742516,
+    "recall": 0.7070484581497798,
+    "roc_auc": 0.6618104455004798,
+    "brier_score": 0.23122631013393402
+  },
+  "logistic_regression": {
+    "model": "Logistic Regression",
+    "accuracy": 0.6395209580838324,
+    "precision": 0.6462715105162524,
+    "recall": 0.7444933920704846,
+    "roc_auc": 0.6904794940280042,
+    "brier_score": 0.22282219333279898
+  }
+}
